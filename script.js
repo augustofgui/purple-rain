@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function init() {
         const canvas = document.querySelector("#canvas");
+        
         canvas.width = document.body.clientWidth;
         canvas.height = document.body.clientHeight;
 
